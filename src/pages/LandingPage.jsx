@@ -18,7 +18,7 @@ const stats = [
   { value: "50+", label: "Events Listed" },
   { value: "12k+", label: "Tickets Booked" },
   { value: "6", label: "Categories" },
-  { value: "5 star", label: "Rated Experience" },
+  { value: "5+", label: "Rated Experience" },
 ];
 
 const features = [
@@ -121,8 +121,9 @@ export default function LandingPage() {
                 </div>
               </div>
             </div>
-            <div className="z-1 w-xl md:flex hidden">
+            <div className="z-1 w-xl md:flex hidden rounded-md">
               <img
+                className="rounded-md"
                 src="https://media.istockphoto.com/id/1363169212/photo/girl-holds-tickets-boarding-passes-for-a-flight.jpg?s=612x612&w=0&k=20&c=sLpjtW-G0r8jQX9HNZf2ldnlS57xJgxAIIJYCtI_AiY="
                 alt="experience"
               />
@@ -257,7 +258,7 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               {/* Text side */}
               <div>
-                <p className="text-xs  font-semibold uppercase tracking-widest text-gray-400 mb-3">
+                <p className="text-sm  font-semibold uppercase tracking-widest text-gray-500 mb-3">
                   How it works
                 </p>
                 <h2 className=" font-extrabold text-4xl text-black leading-tight mb-10">
@@ -273,17 +274,17 @@ export default function LandingPage() {
                           {step.icon}
                         </div>
                         {i < steps.length - 1 && (
-                          <div className="w-px h-10 bg-gray-200 mt-2" />
+                          <div className="w-px h-10 bg-gray-400 mt-2" />
                         )}
                       </div>
                       <div className="pt-1.5">
-                        <span className=" text-xs font-bold text-gray-300 tracking-widest">
+                        <span className=" text-sm font-bold text-gray-400 tracking-widest">
                           {step.number}
                         </span>
                         <h3 className=" font-bold text-black text-lg mt-0.5">
                           {step.title}
                         </h3>
-                        <p className="font-dm text-gray-500 text-sm leading-relaxed mt-1">
+                        <p className="font-dm text-gray-600 text-sm leading-relaxed mt-1">
                           {step.desc}
                         </p>
                       </div>
@@ -307,7 +308,7 @@ export default function LandingPage() {
                       Live Booking
                     </span>
                   </div>
-                  <p className="font-dm text-xs text-gray-400">
+                  <p className="font-dm text-xs text-gray-600">
                     247 people booked tickets this week
                   </p>
                 </div>
