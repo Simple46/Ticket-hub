@@ -15,8 +15,8 @@ import EventCard from "../components/EventCard.jsx";
 import { events } from "../data/events.js";
 
 const stats = [
-  { value: "50+", label: "Events Listed" },
-  { value: "12k+", label: "Tickets Booked" },
+  { value: "9", label: "Events Listed" },
+  { value: "12+", label: "Tickets Booked" },
   { value: "6", label: "Categories" },
   { value: "5+", label: "Rated Experience" },
 ];

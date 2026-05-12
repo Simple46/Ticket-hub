@@ -3,7 +3,7 @@ export const events = [
     id: 1,
     name: "Afrobeats Night Lagos",
     category: "Music",
-    date: "2025-08-15",
+    date: "2026-08-15",
     time: "20:00",
     location: "Eko Hotel & Suites, Lagos",
     description:
@@ -14,9 +14,9 @@ export const events = [
   },
   {
     id: 2,
-    name: "Lagos Tech Summit 2025",
+    name: "Lagos Tech Summit 2026",
     category: "Tech",
-    date: "2025-09-05",
+    date: "2026-09-05",
     time: "09:00",
     location: "Landmark Centre, Lagos",
     description:
@@ -29,7 +29,7 @@ export const events = [
     id: 3,
     name: "Jollof Festival Abuja",
     category: "Food",
-    date: "2025-08-30",
+    date: "2026-08-30",
     time: "12:00",
     location: "Transcorp Hilton, Abuja",
     description:
@@ -42,7 +42,7 @@ export const events = [
     id: 4,
     name: "Super Eagles Watch Party",
     category: "Sports",
-    date: "2025-09-12",
+    date: "2026-09-12",
     time: "18:00",
     location: "Teslim Balogun Stadium, Lagos",
     description:
@@ -55,7 +55,7 @@ export const events = [
     id: 5,
     name: "Nollywood Gala Night",
     category: "Entertainment",
-    date: "2025-10-03",
+    date: "2026-10-03",
     time: "19:00",
     location: "Eko Convention Centre, Lagos",
     description:
@@ -68,7 +68,7 @@ export const events = [
     id: 6,
     name: "Highlife Reunion Concert",
     category: "Music",
-    date: "2025-09-20",
+    date: "2026-09-20",
     time: "18:00",
     location: "National Theatre, Lagos",
     description:
@@ -81,7 +81,7 @@ export const events = [
     id: 7,
     name: "Women in Tech Nigeria",
     category: "Tech",
-    date: "2025-10-11",
+    date: "2026-10-11",
     time: "10:00",
     location: "Co-Creation Hub, Lagos",
     description:
@@ -92,9 +92,9 @@ export const events = [
   },
   {
     id: 8,
-    name: "Lagos Carnival 2025",
+    name: "Lagos Carnival 2026",
     category: "Entertainment",
-    date: "2025-12-26",
+    date: "2026-12-26",
     time: "10:00",
     location: "Tafawa Balewa Square, Lagos",
     description:
@@ -107,7 +107,7 @@ export const events = [
     id: 9,
     name: "Naija Street Food Fest",
     category: "Food",
-    date: "2025-11-08",
+    date: "2026-11-08",
     time: "11:00",
     location: "Lekki Leisure Lake, Lagos",
     description:
@@ -115,6 +115,84 @@ export const events = [
     image: "https://picsum.photos/seed/streetfood9/600/400",
     regularPrice: 1000,
     vipPrice: 4000,
+  },
+  {
+    id: 10,
+    name: "Startup Pitch Battle Lagos",
+    category: "Tech",
+    date: "2026-11-15",
+    time: "14:00",
+    location: "Civic Centre, Lagos",
+    description:
+      "Watch Africa's most promising startups compete live for funding and recognition. Meet founders, investors, and innovators shaping the future of tech.",
+    image: "https://picsum.photos/seed/startup10/600/400",
+    regularPrice: 6000,
+    vipPrice: 18000,
+  },
+  {
+    id: 11,
+    name: "Beach Vibes Music Festival",
+    category: "Music",
+    date: "2026-12-06",
+    time: "16:00",
+    location: "Oniru Beach, Lagos",
+    description:
+      "Sunset performances, DJs, food trucks, and beach games come together for the ultimate end-of-year music festival experience.",
+    image: "https://picsum.photos/seed/beachvibes11/600/400",
+    regularPrice: 3500,
+    vipPrice: 10000,
+  },
+  {
+    id: 12,
+    name: "Abuja Fitness Challenge",
+    category: "Sports",
+    date: "2026-09-27",
+    time: "07:00",
+    location: "Moshood Abiola Stadium, Abuja",
+    description:
+      "Join fitness lovers from across the country for an exciting day of workouts, obstacle races, wellness talks, and team competitions.",
+    image: "https://picsum.photos/seed/fitness12/600/400",
+    regularPrice: 2500,
+    vipPrice: 7000,
+  },
+  {
+    id: 13,
+    name: "Taste of Nigeria Expo",
+    category: "Food",
+    date: "2026-10-25",
+    time: "13:00",
+    location: "Freedom Park, Lagos",
+    description:
+      "Discover the rich flavours of Nigeria with regional dishes, cooking competitions, cultural performances, and live entertainment.",
+    image: "https://picsum.photos/seed/taste13/600/400",
+    regularPrice: 2000,
+    vipPrice: 6500,
+  },
+  {
+    id: 14,
+    name: "Comedy Night with Naija Stars",
+    category: "Entertainment",
+    date: "2026-11-22",
+    time: "19:30",
+    location: "Muson Centre, Lagos",
+    description:
+      "An unforgettable evening of laughter featuring Nigeria's top comedians delivering hilarious stand-up performances and surprise guest appearances.",
+    image: "https://picsum.photos/seed/comedy14/600/400",
+    regularPrice: 4000,
+    vipPrice: 12000,
+  },
+  {
+    id: 15,
+    name: "AI & Future of Africa Conference",
+    category: "Tech",
+    date: "2026-12-12",
+    time: "09:00",
+    location: "Eko Convention Centre, Lagos",
+    description:
+      "Explore how artificial intelligence is transforming healthcare, finance, education, and business across Africa through talks and live demos.",
+    image: "https://picsum.photos/seed/ai15/600/400",
+    regularPrice: 9000,
+    vipPrice: 30000,
   },
 ];
 

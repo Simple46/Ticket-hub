@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Search } from "lucide-react";
 import Navbar from "../components/Navbar.jsx";
-// import Footer from "../components/Footer.jsx";
+import Footer from "../components/Footer.jsx";
 import EventCard from "../components/EventCard.jsx";
 import { events, categories } from "../data/events.js";
 
@@ -91,7 +91,7 @@ export default function EventsPage() {
         </div>
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
