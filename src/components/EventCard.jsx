@@ -12,7 +12,7 @@ export default function EventCard({ event }) {
           alt={event.name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        {/* Category badge */}
+    
         <span className="absolute top-3 left-3 bg-amber-950 text-white text-xs font-syne font-semibold px-3 py-1 rounded-full">
           {event.category}
         </span>
@@ -37,7 +37,7 @@ export default function EventCard({ event }) {
           </div>
         </div>
 
-        {/* Price + CTA */}
+
         <div className="flex items-center justify-between pt-4 border-t border-amber-800">
           <div>
             <p className="text-xs text-amber-800 font-dm">From</p>

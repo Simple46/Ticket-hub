@@ -29,7 +29,7 @@ export default function BookingCard({ booking, onCancel }) {
   return (
     <>
       <div className="bg-white border border-amber-700 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-        {/* Top banner */}
+
         <div className="bg-amber-950 px-5 py-3 flex items-center justify-between">
           <div>
             <p className="font-dm text-xs text-amber-100 mb-0.5">
@@ -118,7 +118,7 @@ export default function BookingCard({ booking, onCancel }) {
               </div>
             </div>
 
-            {/* Right — QR + Cancel */}
+            {/*  QR + Cancel */}
             <div className="flex flex-col items-center gap-4">
               <QRCodeDisplay booking={booking} size={120} />
 

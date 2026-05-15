@@ -30,7 +30,7 @@ export default function TicketForm({ event }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({ ...prev, [name]: value }));
-    // Clear error on change
+
     setErrors((prev) => ({ ...prev, [name]: "" }));
   };
 
@@ -84,7 +84,7 @@ export default function TicketForm({ event }) {
 
     saveBooking(booking);
 
-    // Navigate with booking in state
+
     navigate("/confirmation", { state: { booking } });
   };
 
@@ -94,7 +94,7 @@ export default function TicketForm({ event }) {
         Book Tickets
       </h2>
 
-      {/* Ticket type toggle */}
+  
       <div className="mb-6">
         <label className="block font-dm text-sm font-medium text-amber-900 mb-2">
           Ticket Type

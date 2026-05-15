@@ -100,8 +100,8 @@ export default function LandingPage() {
 
                 <p className="text-gray-300 font-dm text-lg leading-relaxed mb-10 max-w-lg">
                   Discover the best concerts, festivals, tech summits, and
-                  cultural events happening across Nigeria — and book your spot
-                  in seconds.
+                  cultural events happening across Nigeria and book your spot in
+                  seconds.
                 </p>
 
                 <div className="flex flex-wrap gap-3">
@@ -185,7 +185,7 @@ export default function LandingPage() {
                 <p className="font-dm text-amber-900 text-base leading-relaxed mb-5">
                   TickEvent was built for Nigerians who love great experiences.
                   From the electric energy of Afrobeats concerts to tech summits
-                  shaping Africa's future — we make sure you never miss what
+                  shaping Africa's future we make sure you never miss what
                   matters.
                 </p>
                 <p className="font-dm text-amber-900 text-base leading-relaxed mb-8">
