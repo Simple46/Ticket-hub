@@ -30,7 +30,7 @@ const features = [
   {
     icon: <Star className="w-5 h-5" />,
     title: "Curated Events",
-    desc: "Only the best Nigerian events — music, food, tech, sports and entertainment.",
+    desc: "Only the best Nigerian events  music, food, tech, sports and entertainment.",
   },
   {
     icon: <Shield className="w-5 h-5" />,
